@@ -308,15 +308,15 @@
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-    <script src="csv-to-html-table/js/jquery.csv.min.js"></script>
+    <script src="csv-to-html/js/jquery.csv.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-    <script src="csv-to-html-table/js/csv_to_html_table.js"></script>
+    <script src="csv-to-html/js/csv_to_html_table.js"></script>
 
     <script>
     	function format_image(img) {
     		if (img)
-    			return "<a href='https://www.google.com'> <img src='csv-to-html-table/img/" + img + "'> </a>";
+    			return "<a href='https://www.google.com'> <img src='csv-to-html/img/" + img + "'> </a>";
     		else return "";
     	}
         function format_link(link) {
@@ -326,7 +326,7 @@
         }
 
         CsvToHtmlTable.init({
-            csv_path: "csv-to-html-table/data/Health Clinics in Chicago.csv",
+            csv_path: "csv-to-html/data/Health Clinics in Chicago.csv",
             element: "table-container",
             allow_download: true,
             csv_options: {
