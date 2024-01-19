@@ -312,7 +312,8 @@
     		if (link){
     			position = link.search("id=");
     			hash = link.substring(position+3,link.length);
-    			finalLink = "https://drive.google.com/uc?export=view&id=" + hash;
+    			finalLink = "https://drive.google.com/thumbnail?id=" + hash;
+    			//finalLink = "https://drive.google.com/uc?export=view&id=" + hash;
     			//finalLink = "https://drive.google.com/file/d/" + hash + "/preview";
     			//finalLink = "https://drive.google.com/file/d/" + hash;
     			console.log(finalLink);
