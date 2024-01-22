@@ -123,6 +123,8 @@ navigation_header:
   url: https://forum.nime.org/
 - title: Mentorship
   url: /mentorship/
+- title: Exchange
+  url: /exchange/
 
 navigation_footer:
 - title: Back to top
