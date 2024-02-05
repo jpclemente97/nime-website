@@ -31,7 +31,7 @@ permalink: /simplified-table/
 			position = link.search("id=");
 			hash = link.substring(position+3,link.length);
 			finalLink = "https://drive.google.com/thumbnail?id=" + hash;
-			return "<a href='https://www.google.com'> <img src='" + finalLink + "'> </a>";
+			return "<a href='" + finalLink + "'> <img src='" + finalLink + "'> </a>";
 		}
 		else return "";
 	}
@@ -44,7 +44,7 @@ permalink: /simplified-table/
     CsvToHtmlTable.init({
         csv_path: "../assets/nimeTestSimplified.csv",
         element: "table-container",
-        allow_download: true,
+        allow_download: false,
         csv_options: {
             separator: ",",
             delimiter: '"'
