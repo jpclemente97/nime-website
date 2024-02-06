@@ -11,5 +11,4 @@ optional:
 * to change the contents of the associated pages on the nime website edit: exchange.md and exchange-full.md (files in the website root)
 * to change the font size of the table, create a “<style>” tag, and for the div of the table add the line “font-size: <x>px;”, with <x> being the selected font size.
 * to make a column wider, edit process-table.py and add underscores '_____' (as many as the target width) to the column name (edit the column_renamed_id list and eventually also columns_small_id)
-
-* to make a column narrower, add a new line character (‘\n’) to all entries in a column or a space using custom formatting or python process-table.py
+* to make a column narrower, break too add a new line character (‘\n’) to all entries in a column or a space using custom formatting or python process-table.py
