@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Full Table
-permalink: /full-table/
+title: Exchange Full Table
+permalink: /exchange-full-table/
 ---
-<html lang="en">
 
 <style>
 .myDiv {

@@ -4,27 +4,15 @@ title: Exchange
 permalink: /exchange/
 ---
 
+To date, hundreds of NIMEs have been built, presented at conferences, and used in live performances. Even after many years, some of these NIME may still exist, eventually maintained in working conditions. Making these NIMEs available to others can be immensely beneficial for our community. These can be used in other studies, compared with improved versions of the same conceptual design, or further developed by other researchers. Artists can engage with such unique musical devices, master skills, and feature these in their performances and compositions. Such activities can further inform the research of the original author, and promote new artistic or academic collaborations.
 
+If you ***own a NIME*** that you would like to make available to other artists or researchers, fill up this [form](https://docs.google.com/forms/d/e/1FAIpQLSfcWRfPuj4KBqp3WplTrtnX636scaNdMWUZLBeddRCKWAErMw/viewform?usp=sf_link). The form includes a comprehensive set of questions about the owner, status, and current location of the device. It also asks who can access the device, where they can access it, for how long they can access it, and whether the device can be loaned or even donated.
+A few days after submitting the form, your NIME will be listed on the table below. If you wish to remove your submission, [contact us](mailto:stefano.fasciani@imv.uio.no?subject=NIMExchange).
 
+If you wish to ***use or borrow a NIME***, check out the devices listed in the table below, as well as the full details listed in the [extended version of the table](/exchange-full-table/). Then get in touch with the owner and enter in a dialogue to find an agreement.
+Volunteers from the NIME community can facilitate the dialogue between Owner and User/Borrower. However the NIME committee and volunteers will not take any responsibility for the final agreement, which is solely between Owner and User/Borrower. Also, the committee and volunteers are not responsible for problems that may arise from such activities and they do not offer mediation. Below, there is a set of [recommendations](#recommendations) that both Owner and interested User/Borrower should consider before exchanging a NIME.  
 
-
-To date, hundreds of NIMEs have been built and presented during the annual conference (and in other academic/artistic venues). Thereafter, their fate is mostly unknown. Do they still exist? Are they still in full/partial working condition? Are they available for use by other researchers or artists? We believe that several of the presented NIMEs still exist and are just collecting dust in our storage. Making existing NIMEs available to others can have mutual benefits. This also resonates with trends that have emerged in recent years in the NIME community: sustainable and eco-friendly research, longevity of NIMEs, reuse or redesign of old NIMEs, diversity and inclusion.
-
-The goal of this initiative is to develop a framework to facilitate the use of existing NIME by other researchers and/or artists. This may include:
-
-- Structure and hosting of a database of existing NIME (e.g. what information to include), populated and maintained by the community (how to promote this?).
-- Guidelines and practicalities related to the exchange of NIMEs (e.g. exchanging
-the hardware during the annual conference, visiting when the hardware can not be moved, etc.)
-
-If you want to add your NIME to the Exchange list, please fill up this [form](https://docs.google.com/forms/d/e/1FAIpQLSfcWRfPuj4KBqp3WplTrtnX636scaNdMWUZLBeddRCKWAErMw/viewform?usp=sf_link)
-
-
-
-<br>
-
-[View full table](/full-table/)
-
-
+<br/><br/> 
 
 <head>
     <!-- Bootstrap core CSS -->
@@ -75,4 +63,34 @@ If you want to add your NIME to the Exchange list, please fill up this [form](ht
     });
 </script>
 
+<br/><br/> 
 
+[**View extended version of table**](/exchange-full-table/)
+
+<br/><br/> 
+
+#### Recommendations
+
+* Users or Borrowers should submit a written request or expression of interest to the Owner, specifying the scope, objective, and timeframe.
+
+* Owners are highly encouraged to document their NIME, for example using [Documentation and Replicability in the NIME Community](https://www.nime.org/proc/nime21_4/index.html) or [Open Source DMIs: Towards a replication certification for online shared projects of digital musical instruments](https://link.springer.com/chapter/10.1007/978-3-030-60114-0_5).
+
+* The Owner and User/Borrower should enter into a dialogue to:
+
+    * Clarify mutual expectations, especially if establishing a research collaboration. Remember, most NIMEs are research probes or prototypes, not commercial products.
+
+    * Assess risks, clarify responsibilities and costs, especially if items are damaged or lost.
+
+    * Consider insurance if shipping the NIME and note possible customs fees or issues.
+
+    * Discuss potential copyright or licensing issues.
+
+    * Address any ethical issues or conflicts of interest.
+
+    * Explore the best and most sustainable options for exchanging the NIME. For example, a physical exchange can occur during a conference, or geographically close colleagues, when traveling, may assist.
+
+    * If the User/Borrower is part of a study and data is being collected, provide information and obtain written participation consent.
+
+    * All these points should be briefly documented in a signed agreement by both parties.
+
+* Owners might find it useful to keep a 'history' of Users/Borrowers. For example, this could support future borrowers in troubleshooting the NIME. It might also be helpful to make anonymized borrowing data available for future meta studies or musicological inquiries.
