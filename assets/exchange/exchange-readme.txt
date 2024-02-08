@@ -1,7 +1,7 @@
-﻿The following document will explain the steps to publish the data submitted vai NIMExchange form.
+The following document will explain the steps to publish the data submitted vai NIMExchange form.
 
 0. clone the nime-website repository
-1. download the form responses as .csf file and move it to the exchange folder (do not change the filename)
+1. download the form responses as .csv file and move it to the exchange folder (do not change the filename)
 2. ensure that the images submitted with the Google form in Gdrive have permission set to “general access” permissions to “anyone with the link”
 2. run the python script 'python process-table.py' (requires python 3.9 or higher and pandas)
 3. if 2. succeeds the downloaded .csv will be deleted and two new .csv files will appear in the same folder: exchange-table-small.csv and exchange-table.csv
