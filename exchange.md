@@ -29,18 +29,8 @@ Volunteers from the NIME community can facilitate the dialogue between Owner and
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 <script src="../assets/exchange/csv-to-html-table.js"></script>
+<script src="../assets/exchange/csvTableFormatFunctions.js"></script>
 <script>
-	function format_image(link) {
-		if (link){
-			position = link.search("id=");
-			hash = link.substring(position+3,link.length);
-			ThumbLink = "https://drive.google.com/thumbnail?id=" + hash;
-            DirectLink = "https://drive.google.com/uc?id=" + hash;
-            return "<a href='" + DirectLink + "'> <img src='" + ThumbLink + "'> </a>";
-		}
-		else return "";
-	}
-
     CsvToHtmlTable.init({
         csv_path: "../assets/exchange/exchange-table-small.csv",
         element: "table-container",

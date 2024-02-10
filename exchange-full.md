@@ -32,27 +32,8 @@ permalink: /exchange-full-table/
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 <script src="../assets/exchange/csv-to-html-table.js"></script>
+<script src="../assets/exchange/csvTableFormatFunctions.js"></script>
 <script>
-	function format_image(link) {
-		if (link){
-			position = link.search("id=");
-			hash = link.substring(position+3,link.length);
-			ThumbLink = "https://drive.google.com/thumbnail?id=" + hash;
-            DirectLink = "https://drive.google.com/uc?id=" + hash;
-            return "<a href='" + DirectLink + "'> <img src='" + ThumbLink + "'> </a>";
-		}
-		else return "";
-	}
-    function format_link(link) {
-        if (link)
-            return "<a href='" + link + "' target='_blank'>link</a>";
-        else return "";
-    }
-    function format_wider(text) {
-        text += " ____________________________________";
-        return text;
-    }
-
     CsvToHtmlTable.init({
         csv_path: "../assets/exchange/exchange-table.csv",
         element: "table-container",
