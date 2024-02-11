@@ -17,3 +17,17 @@ function format_wider(text) {
     text += " ____________________________________";
     return text;
 }
+
+function format_list(text) {
+    newText = '';
+    if (text != '') {
+        newText = '<ul><li>' + text;
+        if (text.includes(";")) {
+            newText = newText.replaceAll(";", "</li><li>") + "</ul>";
+        }
+        else {
+            newText += "</li></ul>";
+        }
+    }
+    return newText;
+}

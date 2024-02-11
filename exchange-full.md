@@ -10,6 +10,9 @@ permalink: /exchange-full-table/
     overflow-x: scroll;
     overflow-y: scroll;
 }
+ul {
+    padding-left: 0;
+}
 </style>
 
 <head>
@@ -50,6 +53,9 @@ permalink: /exchange-full-table/
         	[3, format_link],
         	[4, format_image],
         	[5, format_link],
+            [10, format_list],
+            [11, format_list],
+            [12, format_list],
             [13, format_link]
         ]
     });
