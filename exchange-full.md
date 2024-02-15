@@ -53,6 +53,7 @@ ul {
         	[3, format_link],
         	[4, format_image],
         	[5, format_link],
+            [9, format_list],
             [10, format_list],
             [11, format_list],
             [12, format_list],
@@ -62,5 +63,4 @@ ul {
 </script>
 </body>
 
-</html>
 
